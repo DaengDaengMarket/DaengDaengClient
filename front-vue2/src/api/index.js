@@ -2,12 +2,11 @@
 import axios from 'axios';
 import { setInterceptors } from './common/interceptor';
 
-
 function createInstanceWithAuth(url) {
-    const instance = axios.create({
-      baseURL: `${process.env.VUE_APP_API_URL}api/${url}`,
-    });
-    return setInterceptors(instance);
+	const instance = axios.create({
+		baseURL: `${process.env.VUE_APP_API_URL}api/${url}`,
+	});
+	return setInterceptors(instance);
 }
 export const goods = createInstanceWithAuth('goods');
 // 1. HTTP Request & Response와 관련된 기본 설정

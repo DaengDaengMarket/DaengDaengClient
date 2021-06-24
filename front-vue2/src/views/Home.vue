@@ -102,8 +102,7 @@
 						</div>
 
 						<Goods></Goods>
-						
-					</div>			
+					</div>
 				</div>
 			</div>
 		</div>
@@ -111,11 +110,11 @@
 </template>
 
 <script>
-import Goods from '../components/common/goods.vue'
+import Goods from '../components/common/goods.vue';
 export default {
 	name: '',
 	components: {
-		Goods
+		Goods,
 	},
 	data() {
 		return {};
