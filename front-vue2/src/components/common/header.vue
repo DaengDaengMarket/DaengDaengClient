@@ -107,13 +107,12 @@
 										</div>
 									</li>
 									<li>
-										<router-link to="/mypage">
-											<i class="fas fa-bone"></i>
-											마이댕댕
-										</router-link>
+										<a href="#" @click="goMypage"
+											><i class="fas fa-bone"></i> 마이댕댕</a
+										>
 									</li>
 									<li>
-										<a href="#" @click="showPopup"
+										<a href="#" @click="goChat"				
 											><i class="far fa-comment-dots"></i> 댕댕톡</a
 										>
 									</li>
@@ -180,7 +179,7 @@ export default {
 		);
 	},
 	methods: {
-		showPopup() {
+		goChat() {
 			const host = 'http://' + window.location.host + '/chat';
 			window.open(host, 'a', 'width=800, height=880, left=100, top=50');
 		},
@@ -192,6 +191,10 @@ export default {
 			else{
 				this.$router.push('/');
 			}
+		},
+		goMypage(){
+			const mypage='/mypage/'+this.$store.state.auth.id
+			this.$router.push({ path:mypage})
 		},
 		// 로그아웃 메소드
 		logoutUser() {

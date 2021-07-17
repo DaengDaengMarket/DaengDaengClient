@@ -61,6 +61,7 @@ export default {
           break;
         }
         case 'finish':{
+          // 거래 완료된 api 호출해서 띄우기
           this.propGoods=[];
           this.propGoods=this.goodsdataFinish;
           break;
@@ -82,7 +83,7 @@ export default {
             this.propInfinite=true;
           }
           this.$emit('pass',this.propGoods)
-          this.$emit('change',this.infiniteBtn);
+          this.$emit('change',this.propInfinite);
           console.log(this.propGoods);
         } catch (error) {
           alert(error);

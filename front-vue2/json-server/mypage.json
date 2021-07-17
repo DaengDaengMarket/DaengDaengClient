@@ -1,0 +1,101 @@
+{
+    "mypage":{
+        "id":0,
+        "buyerItemList": [
+            {
+                "createdAt": "2021-07-10T06:45:22.103Z",
+                "gu": "JONGNOGU",
+                "hit": 0,
+                "id": 0,
+                "itemImageResponseDto": {
+                "id": 0,
+                "orders": 0,
+                "path": "string"
+                },
+                "itemStatus": "NEW",
+                "name": "string",
+                "negoStatus": "OK",
+                "price": 0,
+                "si": "SEOULSI",
+                "updatedAt": "2021-07-10T06:45:22.103Z"
+            }
+        ],
+        "pagination": {
+            "currentElements": 0,
+            "currentPage": 0,
+            "hasNext": true,
+            "hasPrevious": true,
+            "totalElements": 0,
+            "totalPages": 0
+        },
+        "reviewMyPageResponseDtoList": [
+        {
+            "content": "안녕하세요 아주 좋은 물건 감사합니다",
+            "createdAt": "2021-07-10T06:45:22.103Z",
+            "id": 0,
+            "name":"김영삼",
+            "itemMyPageResponseDto": {
+            "id": 0,
+            "name": "string"
+            },
+            "rate": 0
+        },
+        {
+            "content": "친절하시네요",
+            "createdAt": "2021-07-10T06:45:22.103Z",
+            "id": 0,
+            "name":"홍길동",
+            "itemMyPageResponseDto": {
+            "id": 0,
+            "name": "string"
+            },
+            "rate": 0
+        },
+        {
+            "content": "감사합니다",
+            "createdAt": "2021-07-10T06:45:22.103Z",
+            "id": 0,
+            "itemMyPageResponseDto": {
+            "id": 0,
+            "name": "string"
+            },
+            "rate": 0
+        }
+        ],
+        "sellerItemList": [
+        {
+            "createdAt": "2021-07-10T06:45:22.103Z",
+            "gu": "JONGNOGU",
+            "hit": 0,
+            "id": 0,
+            "itemImageResponseDto": {
+            "id": 0,
+            "name":"이태섭",
+            "orders": 0,
+            "path": "string"
+            },
+            "itemStatus": "NEW",
+            "name": "string",
+            "negoStatus": "OK",
+            "price": 0,
+            "si": "SEOULSI",
+            "updatedAt": "2021-07-10T06:45:22.103Z"
+        }
+        ],
+        "userMyPageResponseDto": {
+        "userMyPageInfoResponseDto": {
+            "concern": "BIG",
+            "email": "string",
+            "gu": "JONGNOGU",
+            "id": 0,
+            "imagePath": "/img/km/view.png",
+            "nickname": "string",
+            "rate": 0,
+            "si": "SEOULSI",
+            "tel": "string"
+        }
+    }
+
+    }
+       
+}

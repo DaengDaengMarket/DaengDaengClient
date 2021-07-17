@@ -1,12 +1,7 @@
 <template>
-	<div id="report">
-		report
-
-
-
-
-		
-	</div>
+  <div id="report">
+    report
+  </div>
 </template>
 
 <script>
@@ -15,6 +10,6 @@ export default {};
 
 <style scoped>
 .offcanvas-wrapper {
-	z-index: 1;
+  z-index: 1;
 }
 </style>

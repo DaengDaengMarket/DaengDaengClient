@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "json" :"json-server --watch db.json --port 3002"
+    "json": "json-server --watch db.json --port 3002"
   },
   "lint": "eslint --ext .js,.vue src",
   "dependencies": {
@@ -21,9 +21,10 @@
     "bootstrap": "^5.0.1",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
+    "uuid": "^8.3.2",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
     "vue-infinite-loading": "^2.4.5",
+    "vue-router": "^3.2.0",
     "vue-scrollmonitor": "^0.1.0",
     "vue-sidebar-menu": "^4.7.4",
     "vuetify": "^2.5.3",
@@ -35,17 +36,18 @@
     "@vue/cli-plugin-router": "^4.5.13",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
+    "eslint": "^5.16.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^7.12.1",
+    "json-server": "^0.16.3",
+    "json-server-auth": "^2.0.2",
     "sass": "~1.32.0",
     "sass-loader": "^10.0.0",
     "vue-cli-plugin-vuetify": "~2.4.1",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.0"
   },
-  
   "browserslist": [
     "> 1%",
     "last 2 versions",

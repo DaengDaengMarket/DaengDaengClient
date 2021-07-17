@@ -72,14 +72,13 @@
 				</button>
 			</div>
 		</form>
-	
 	</div>
 </template>
 
 <script>
 import { validateEmail } from '../utils/validation';
 import { loginUser } from '../api/index';
-import {saveAuthToCookie,saveUserToCookie} from '../utils/cookies';
+import { saveAuthToCookie, saveUserToCookie } from '../utils/cookies';
 export default {
 	data() {
 		return {
@@ -103,11 +102,10 @@ export default {
 					password: this.password,
 				};
 				/**
-				 *  쿠키로 값을 받아 스토어에 전달하는 방식 
+				 *  쿠키로 값을 받아 스토어에 전달하는 방식
 				 */
-				await this.$store.dispatch('LOGIN',userData);
+				await this.$store.dispatch('LOGIN', userData);
 				this.$router.push('/');
-				
 
 				/**
 				 * regacy
@@ -117,12 +115,12 @@ export default {
 				// this.$store.commit('setToken', data.token);
 				// this.$store.commit('setEmail', this.email);
 				// this.$router.push('/');
-				// 쿠키에 저장 
+				// 쿠키에 저장
 				// saveAuthToCookie(data.token);
 				// saveUserToCookie(this.email);
 			} catch (error) {
 				console.log(error.response.data);
-				this.logMessage = error.response.data
+				this.logMessage = error.response.data;
 			} finally {
 				//
 			}

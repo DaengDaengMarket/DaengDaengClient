@@ -114,22 +114,22 @@ const mutations = {
 }
 
 const actions = {
-	async getGoodList(context, data) {
-		try {
-			const response = await getGoodsList(data);
-			context.commit('getGoodList', response);
-		} catch (error) {
-			alert(error);
-		}
-	},
-	async getGoodOne(context, data) {
-		try {
-			const response = await getGoodsOne(data);
-			context.commit('getGoodOne', response);
-		} catch (error) {
-			alert(error);
-		}
-	},
+	// async getGoodList(context, data) {
+	// 	try {
+	// 		const response = await getGoodsList(data);
+	// 		context.commit('getGoodList', response);
+	// 	} catch (error) {
+	// 		alert(error);
+	// 	}
+	// },
+	// async getGoodOne(context, data) {
+	// 	try {
+	// 		const response = await getGoodsOne(data);
+	// 		context.commit('getGoodOne', response);
+	// 	} catch (error) {
+	// 		alert(error);
+	// 	}
+	// },
 };
 
 const getters={
